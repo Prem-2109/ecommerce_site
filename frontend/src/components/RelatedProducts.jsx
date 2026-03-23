@@ -18,18 +18,9 @@ const RelatedProducts = ({ category, subcategory }) => {
     return (
         <div className="my-20">
 
-            <div class=" text-center text-3xl py-2">
-                <div class="inline-flex gap-2 items-center mb-3">
-                    <p class="text-gray-500">RELATED <span class="text-gray-700 font-medium">PRODUCTS</span>
-                    </p>
-                    <p class="w-8 sm:w-12 h-[1px] sm:h-[2px] bg-gray-700"></p>
-                </div>
-            </div>
-
-
-            {/* <div className="text-center text-3xl py-2">
+            <div className="text-center text-3xl py-2">
                 <Title text1={"Related"} text2={"Products"} />
-            </div> */}
+            </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
                 {related.map((item) => (

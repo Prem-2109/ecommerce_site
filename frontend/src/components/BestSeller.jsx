@@ -16,7 +16,7 @@ const BestSeller = () => {
   }, [products])
 
   return (
-    <div className='my-10'>
+    <div className='my-10 px-4 sm:px-8 md:px-12 lg:px-16'>
 
       {/* Heading */}
       <div className='text-center text-3xl py-8'>

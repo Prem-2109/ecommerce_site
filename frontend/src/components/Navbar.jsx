@@ -19,7 +19,7 @@ const Navbar = () => {
   ]
 
   return (
-    <div className="flex items-center justify-between py-5 font-medium relative z-50">
+    <div className="flex items-center justify-between py-5 font-medium relative z-50 px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
 
       {/* Logo */}
       <NavLink to="/" onClick={closeMobileMenu}>
